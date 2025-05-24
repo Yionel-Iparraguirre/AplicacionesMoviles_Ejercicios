@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvPresentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU DE APLICACIONES"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="45dp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBurbuja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:text="Método Burbuja" />
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:text="Calculadora" />
+
+    <Button
+        android:id="@+id/btnMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:text="Registro Matrícula" />
+
+    <Button
+        android:id="@+id/btnAsistencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:text="Registro Asistencia" />
+
+</LinearLayout>
